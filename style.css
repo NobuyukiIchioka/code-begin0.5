@@ -1,6 +1,5 @@
 body{
     color: #003458;
-
 }
 
 
@@ -17,8 +16,7 @@ header{
 /* mainーーーーーーーーーーーーーーーーー */
 /* 共通 */
 main{
-    /* Hiragino Kaku Gothic ProN */
-    font-family: Hiragino Kaku Gothic ProN;
+    font-family: 'Hiragino Kaku Gothic ProN';
 }
 
 .main_img > img{
