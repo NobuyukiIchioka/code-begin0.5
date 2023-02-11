@@ -1,37 +1,88 @@
-/* header_CSS */
-.logo{
+body{
+    color: #003458;
+
+}
+
+
+
+/* header＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+header{
     height: 131px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header > img{
+
+/* mainーーーーーーーーーーーーーーーーー */
+/* 共通 */
+main{
+    /* Hiragino Kaku Gothic ProN */
+    font-family: Hiragino Kaku Gothic ProN;
+}
+
+.main_img > img{
     width: 100%;
 }
 
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-/* main_CSS */
+.message{
+    margin-top: 100px;
+    line-height: 27px;
+}
+/* line-heightが効いてない？ */
+
+.message > div{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 36px;
+    margin-bottom: 60px;
+    line-height: 48px;
+}
+/* line-heightが効いてない？ */
+
+
+
+/* ユニーク */
+/* 1st */
+main > .container:nth-child(2){
+    height: 420px;
+}
+
+/* 2nd */
+main > .container:nth-child(3){
+    height: 570px;
+    background-color: #F5F5F5;
+}
+
+/* 3rd */
+main > .container:nth-child(4){
+    height: 420px;
+}
+
 main > div{
     width: 100%;
     text-align: center;
 }
 
-.message1{
-    height: 420px;
+
+
+/* footer＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+footer{
+    height: 130px;
+    background-color: #003458;
+    text-align: center;
+    color: white;
 }
 
-
-
-.message2{
-    height: 570px;
-    background-color: #F5F5F5;
-}
-
-
-
-
-.message3{
-    height: 450px;
+.footer_img > img{
+    margin: 36px 0 17px 0;
 }
 
